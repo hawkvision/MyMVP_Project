@@ -345,6 +345,11 @@ public class MainActivity extends BaseActivity implements MainMvpView {
         finish();
     }
 
+    // my latest function
+    public int getInteger1() {
+        return 0;
+    }
+
     @Override
     public void showRateUsDialog() {
         RateUsDialog.newInstance().show(getSupportFragmentManager());
